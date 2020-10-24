@@ -5,7 +5,8 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "LICENSE"
+    "LICENSE",
+    "dist/"
   ],
   "scripts": {
     "build": "run-s clean build:js",
