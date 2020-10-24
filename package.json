@@ -1,0 +1,18 @@
+{
+  "name": "@fracturedgraphics/bellwether-components",
+  "version": "0.0.0",
+  "description": "React components package for the bellwether library.",
+  "files": [
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fracturedgraphics/bellwether-components.git"
+  },
+  "author": "Fractured Graphics",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fracturedgraphics/bellwether-components/issues"
+  },
+  "homepage": "https://github.com/fracturedgraphics/bellwether-components#readme"
+}
