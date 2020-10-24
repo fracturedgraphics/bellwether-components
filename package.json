@@ -2,9 +2,15 @@
   "name": "@fracturedgraphics/bellwether-components",
   "version": "0.0.0",
   "description": "React components package for the bellwether library.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "files": [
     "LICENSE"
   ],
+  "scripts": {
+    "build:js:cjs": "tsc -p tsconfig.cjs.json",
+    "build:js:esm": "tsc -p tsconfig.esm.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fracturedgraphics/bellwether-components.git"
@@ -14,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fracturedgraphics/bellwether-components/issues"
   },
-  "homepage": "https://github.com/fracturedgraphics/bellwether-components#readme"
+  "homepage": "https://github.com/fracturedgraphics/bellwether-components#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
 }
